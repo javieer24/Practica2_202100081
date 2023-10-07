@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP&family=Noto+Serif+Telugu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta{
+    background-color: rgba(200, 200, 200, 0.598);
+    width: 700px;
+    height: 875px;
+    margin-top: 30px;
+    border-radius: 7px;
+    
+    box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75);
+}
+
+.carta header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #800080;
+    color: #eee;
+}
+
+hr{
+    color: black;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+
+.contenedor .izquierda{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+   
+}
+
+.contacto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contacto a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 7px;
+    transition: all 0.4s;
+}
+
+.contacto a:hover{
+    background-color: black;
+    color: #eee;
+}
+.educacion{
+    padding: 20px;
+}
+
+.lenguajes{
+    padding: 20px;
+}
+.contenedor .derecha{
+    grid-column: 2/4;
+   
+}
+
+.educacion{
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
+
+.lenguajes{
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
+
+.Idiomas{
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
+
+
+
+img{
+    height: 190px;
+    width: 170px;
+    background-image: none;
+}
+
+.datosPersonales{
+    padding: 20px;    
+}
+
+.datosPersonales h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.derecha{
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none ;
+}
